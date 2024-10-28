@@ -16,8 +16,13 @@
         <option value="15">Large - $15</option>
     </select>
 
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" value="1" min="1">
+    <p>Total Price: $<span id="total-price">10</span></p>
+
     <button id="place-order">Place Order</button>
     <p id="order-status">Zero Items Selected</p>
+    <p id="order-summary"></p>
 
     <script src="main.js"></script>
 </body>
