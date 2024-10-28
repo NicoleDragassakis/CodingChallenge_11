@@ -29,7 +29,7 @@ sizeSelector.addEventListener('change', updateTotalPrice);
 quantityInput.addEventListener('input', updateTotalPrice);
 
 //TASK FOUR
-
+const placeOrderButton = document.getElementById('place-order');
 placeOrderButton.addEventListener('click', function() {
     const selectedProduct = productSelector.options[productSelector.selectedIndex].text;
     const quantity = quantityInput.value;
